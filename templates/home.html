@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate Originality Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin: 0 auto;
+            width: 50%;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+        button[type="submit"] {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <h1>Certificate Originality Prediction</h1>
+    <form method="post" action="/predict" enctype="multipart/form-data">
+        <label for="certificate">Upload Certificate:</label>
+        <input type="file" id="certificate" name="certificate">
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
