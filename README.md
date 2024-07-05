@@ -32,7 +32,41 @@ AI-Certificate Checker is a powerful platform designed to verify the authenticit
 - **Responsive Design**: Optimized for all devices with HTML, CSS, and JavaScript.
 - **Seamless Back-end**: Efficient processing and handling of verification requests with Flask.
 - **User Engagement**: Provides clear and immediate feedback on the authenticity of certificates.
-
 ---
+## Quick Start
 
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- python3
+- Machine learning libraries
+    - Scikit-learn
+    - Keras
+    - Pandas
+    - Numpy
+
+### Cloning the Repository
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/shiva00007/ai-certificate-checker.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd ai-certificate-checker
+    ```
+### Installation
+
+Install the project dependencies using npm:
+```bash
+python3 Install Packages
+```
+Running the Application:
+Start the development server:
+```bash
+flask Run app
+```
 Enhance your skills by developing this comprehensive certificate verification platform, integrating modern technologies to create an effective and user-friendly web application.
